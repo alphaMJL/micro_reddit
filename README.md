@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project involved setting up models with rails scaffolding, setting up validations and associations for the a simple "micro-reddit"  
+There is no front end to this project, it is just practice getting your choosen DB model set up and function.  
 
-Things you may want to cover:
+Here are my tables:  
 
-* Ruby version
 
-* System dependencies
+users  
+id  username  created_at  updated_at  
 
-* Configuration
+posts  
+id  post_body user_id created_at updated_at  
 
-* Database creation
+comments  
+id  comment_body  user_id  post_id  created_at  updated_at  
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Validations and associations are in app/models  
