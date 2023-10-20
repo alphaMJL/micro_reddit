@@ -1,7 +1,7 @@
 # README
 
 This project involved setting up models with rails scaffolding, setting up validations and associations for the a simple "micro-reddit"  
-There is no front end to this project, it is just practice getting your choosen DB model set up and function.  
+There is no front end to this project, it is just practice getting your choosen DB model set up and functioning.  
 
 Here are my tables:  
 
